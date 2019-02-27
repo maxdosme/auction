@@ -21,7 +21,7 @@ export class StarsComponent implements OnInit {
   ngOnInit() {
     //  初始化星星
     this.stars = [];
-    for (let i = 1; i<=5; i++){
+    for (let i = 1; i<=5; i++) {
       // 判断数值多少如果小于则等于false(星星).push添加到星星类型数组中
       this.stars.push(i > this.rating);
     }
